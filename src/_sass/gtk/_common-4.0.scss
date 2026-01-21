@@ -2325,7 +2325,7 @@ pathbar > button {
 
 .pathbar {
   background-color: $fill;
-  color: $text-secondary;
+  color: $text;
   border: none;
   border-radius: $corner-radius;
   padding: 2px;
@@ -2334,7 +2334,7 @@ pathbar > button {
     margin-top: $space-size;
     margin-bottom: $space-size;
     background-color: on($titlebar, fill);
-    color: $titlebar-text-secondary;
+    color: $titlebar-text;
   }
 
   > button {

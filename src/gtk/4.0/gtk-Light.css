@@ -2459,7 +2459,7 @@ pathbar > button.slider-button {
 
 .pathbar {
   background-color: rgba(0, 0, 0, 0.04);
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
   border: none;
   border-radius: 2px;
   padding: 2px;
@@ -2469,7 +2469,7 @@ headerbar .pathbar {
   margin-top: 6px;
   margin-bottom: 6px;
   background-color: rgba(0, 0, 0, 0.04);
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .pathbar > button {
