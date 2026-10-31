@@ -132,6 +132,17 @@ placesview {
   }
 }
 
+// Fit the path bar and search entry into the headerbar so the content
+// headerbar matches the sidebar one
+.nautilus-pathbar .nautilus-path-button,
+.nautilus-query-editor > menubutton > button {
+  min-height: $medium-size - 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 navigation-view-page > toolbarview > scrolledwindow > viewport > clamp {
   > box > box > stack > button {
     margin-top: $space-size * 2;
