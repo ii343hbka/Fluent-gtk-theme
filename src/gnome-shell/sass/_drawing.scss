@@ -109,12 +109,12 @@
     background-color: if($variant == 'light', $base_color, $inverse_divider_color);
     margin: 2px 6px 6px;
     border: 2px solid transparent !important;
-    box-shadow: 0 3px 3px rgba(black, 0.24), 0 5px 8px rgba(black, 0.05) !important;
+    box-shadow: 0 3px 3px rgba(black, 0.24) !important;
   }
 
   @if $t == focus {
     color: $fg_color;
-    box-shadow: 0 3px 3px rgba(black, 0.20), 0 5px 8px rgba(black, 0.08) !important;
+    box-shadow: 0 3px 3px rgba(black, 0.20) !important;
     border: 2px solid $primary_color !important;
   }
 
@@ -132,12 +132,12 @@
     background-color: if($variant == 'light', $base_color, $inverse_divider_color);
     margin: 2px 6px 6px;
     border: 2px solid transparent !important;
-    box-shadow: 0 3px 3px rgba(black, 0.24), 0 5px 8px rgba(black, 0.05) !important;
+    box-shadow: 0 3px 3px rgba(black, 0.24) !important;
   }
 
   @if $t == round-focus {
     color: $fg_color;
-    box-shadow: 0 3px 3px rgba(black, 0.20), 0 5px 8px rgba(black, 0.08) !important;
+    box-shadow: 0 3px 3px rgba(black, 0.20) !important;
     border: 2px solid $primary_color !important;
   }
 
