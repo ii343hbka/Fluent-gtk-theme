@@ -79,6 +79,11 @@ textview {
   }
 }
 
+// Bare text widgets outside an entry, e.g. AdwEntryRow
+text > selection {
+  @extend %selected_items_primary;
+}
+
 iconview {
   @extend %view;
 
