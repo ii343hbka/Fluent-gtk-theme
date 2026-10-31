@@ -1390,6 +1390,24 @@ tabbox:drop(active) {
   box-shadow: none;
 }
 
+// AdwTabOverview marks the current tab with a focus ring on its card,
+// restore it since the generic .card style removes the outline
+tabgrid > tabgridchild {
+  .card {
+    outline: 0 solid transparent;
+    outline-offset: 4px;
+    transition: outline-color $duration $ease-out,
+      outline-width $duration $ease-out,
+      outline-offset $duration $ease-out;
+  }
+
+  &:focus:focus-visible .card {
+    outline-color: $primary;
+    outline-width: 2px;
+    outline-offset: 0;
+  }
+}
+
 
 // ThemeSelector
 themeselector, // Gnome text editor

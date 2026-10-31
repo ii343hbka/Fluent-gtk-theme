@@ -1333,3 +1333,14 @@ window.org-gnome-TextEditor {
     }
   }
 }
+
+//
+// Ptyxis
+//
+
+// Ptyxis pads the headerbar while the tab bar is shown, which uncovers
+// the window background around the headerbar
+window.ptyxis-window.has-tab-bar .visual-bell-area {
+  padding-top: 0;
+  padding-bottom: 0;
+}
